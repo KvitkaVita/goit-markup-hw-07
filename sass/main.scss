@@ -2,25 +2,34 @@
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 
-
-
-
-
 // base styles
 @import "./base/base";
 @import "./base/reset";
-
 
 // components styles
 @import "./components/buttons";
 @import "./components/container";
 @import "./components/logo";
-@import "./components/site-nav";
-@import "./components/heading";
 @import "./components/overlay";
-@import "./components/features";
+@import "./components/register-form";
+@import "./components/modal";
+@import "./components/bottom-loggo";
+@import "./components/footer";
+
 
 
 
 // layout styles
 @import "./layout/header";
+@import "./layout/site-nav";
+@import "./layout/heading";
+@import "./layout/features";
+@import "./layout/activities";
+@import "./layout/team";
+@import "./layout/socials";
+@import "./layout/header-pages";
+@import "./layout/products";
+@import "./layout/clients";
+
+
+
