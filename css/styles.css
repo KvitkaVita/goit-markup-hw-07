@@ -1,38 +1,38 @@
-:root {
+/* :root {
   /* fonts */
-  --main-font: 'Roboto', sans-serif;
+  /* --main-font: 'Roboto', sans-serif;
   --additional-font: 'Raleway', sans-serif;
   /* text colors */
-  --dark-txt-color: #212121;
+  /* --dark-txt-color: #212121;
   --grey-txt-color: #757575;
   --white-txt-color: #ffffff;
-  --accent-txt-color: #2196f3;
+  --accent-txt-color: #2196f3; */
   /* bg colors */
-  --main-bgc: #ffffff;
+  /* --main-bgc: #ffffff;
   --additional-bgc: #2f303a;
-  --accent-color: #2196f3;
+  --accent-color: #2196f3; */
   /* icons colors */
-  --grey-icon-color: #afb1b8;
+  /* --grey-icon-color: #afb1b8;
   --accent-icon-color: #2196f3;
   --white-icon-color: #ffffff;
-}
+} */ 
 
-body {
+/* body {
   font-family: var(--main-font);
   background: var(--main-bgc);
   margin: 0;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-}
+} */
 
 /* Reset styles */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -56,11 +56,11 @@ img {
 .link {
   text-decoration: none;
   color: currentColor;
-}
+} */
 
 /* Стилі для index.html */
 /* Header для двох сторінок + частина Footer*/
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -71,15 +71,10 @@ img {
 
 .header-container__nav {
   margin-right: auto;
-}
+} */
 
-.site-nav__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: block;
-}
 
-.logo {
+/* .logo {
   font-family: var(--additional-font);
   font-weight: 700;
   font-size: 26px;
@@ -93,9 +88,9 @@ img {
 }
 .logo--accent {
   color: var(--dark-txt-color);
-}
+} */
 
-.site-nav {
+/* .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -106,6 +101,12 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .list.site-nav {
@@ -136,9 +137,9 @@ img {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-}
+} */
 
-.list.header-container {
+/* .list.header-container {
   gap: 50px;
 }
 .header-container--contacts {
@@ -164,10 +165,10 @@ img {
 .header-container--icon {
   fill: currentColor;
   margin-right: 10px;
-}
+} */
 
 /* Ефективні рішення  */
-.heading {
+/* .heading {
   font-family: inherit;
   font-weight: 900;
   font-size: 44px;
@@ -187,10 +188,10 @@ img {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /*ФОНОВЕ ЗОБРАЖЕННЯ  */
-.overlay {
+/* .overlay {
   height: 600px;
   max-width: 1600px;
   margin-right: auto;
@@ -200,11 +201,11 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 
 /* Кнопка Замовити послугу */
 
-.button {
+/* .button {
   color: var(--white-txt-color);
   background-color: var(--accent-color);
   border: var(--accent-color);
@@ -225,10 +226,10 @@ img {
 .button:hover,
 .button:focus {
   background-color: #188ce8;
-}
+} */
 
 /* Особливості компанії */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -239,9 +240,9 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.features__list {
+/* .features__list {
   display: flex;
   gap: 30px;
 }
@@ -282,7 +283,7 @@ img {
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
+} */
 
 /* Чим займаються */
 .activities {
