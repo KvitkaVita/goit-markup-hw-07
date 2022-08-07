@@ -499,7 +499,7 @@ img {
 
 
 /* Products на Портфоліо*/
-.products-container {
+/* .products-container {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -536,15 +536,15 @@ img {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* Products overlay */
-.products__thumb {
+/* .products__thumb {
   position: relative;
   overflow: hidden;
 }
@@ -569,11 +569,11 @@ img {
   line-height: calc (28 / 18);
   letter-spacing: 0.03em;
   color: var(--white-txt-color);
-} 
+}  */
 
 
 /* Footer */
-.bottom-container {
+/* .bottom-container {
   display: flex;
   align-items: baseline;
 }
@@ -712,10 +712,10 @@ color: rgba(255, 255, 255, 0.6);
   gap: 12px;
   align-items: center;
   justify-content: baseline;
-}
+} */
 
 /* Модалка */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -755,9 +755,9 @@ padding: 40px;
   opacity: 1;
   transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1),
     opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.modal-btn {
+/* .modal-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -774,9 +774,9 @@ padding: 40px;
 
 .modal-btn:hover {
   fill: var(--accent-icon-color);
-}
+} */
 
-.form {
+/* .form {
   text-align: center;
 }
 
@@ -921,4 +921,4 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 
-
+ */
